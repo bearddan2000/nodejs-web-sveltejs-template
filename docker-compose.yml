@@ -1,0 +1,7 @@
+version: "3.7"
+
+services:
+  sveltejs-srv:
+    build: sveltejs-srv
+    ports:
+      - 80:80
